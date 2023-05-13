@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+header{
+    height: 12rem;
+    width: 100%;
+}
+
+nav{
+    width: 49.0rem;
+    height: 4.3rem;
+    margin-left: 7.2rem;
+    margin-top: 4.0rem;
+}
+
+.nav-bar-content{
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+
+.nav-bar-content a{
+    text-decoration: none;
+    color: #C4C4CC;
+    font-size: 2.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar-content a:hover{
+    color: white;
+}
+
+/* HOME */
+
+h1{
+    color: #E1E1E6;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+}
+
+div .container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+div .container-wrapper{
+    margin-top: -250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.container-wrapper button{
+    border: 2px solid;
+    padding: 1.2rem 3.2rem;
+    width: 19.5rem;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.container-wrapper button:hover{
+    color: rgb(193, 190, 190);
+}
+
+/* UNIVERSO */
+
+div .content{
+    margin-top: 63px;
+    width: 65.0rem;
+    margin-left: 10.2rem;
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.content p {
+    line-height: 3.4rem;
+}
+
+.content p {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.8rem;
+}
